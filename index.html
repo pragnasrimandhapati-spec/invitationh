@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#9c3154"><meta name="description" content="Join us in celebrating Mandhapati's House Warming Ceremony on June 21, 2027 in Vatluru.">
+  <title>Mandhapati's House Warming Ceremony</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+  <div class="petal-layer" aria-hidden="true"></div>
+  <nav class="navbar navbar-expand-lg invitation-nav"><div class="container"><a class="navbar-brand" href="#home"><span class="brand-mark">✿</span> A celebration of home</a><a class="nav-date" href="#details">21 · 06 · 2027</a></div></nav>
+  <main id="home">
+    <section class="hero container-fluid px-3 px-lg-5"><div class="hero-card row g-0 align-items-stretch">
+      <div class="hero-copy col-lg-6"><div class="eyebrow"><span></span> WITH JOY IN OUR HEARTS <span></span></div><p class="intro">Please join us for</p><h1>Mandhapati’s<br><em>House Warming</em><br>Ceremony</h1><div class="ornament">❧ <span>❀</span> ❧</div><p class="invited-by">Hosted with love by</p><p class="hosts">Mr. Samba Siva Rao<br><span>&amp;</span> Mrs. Rama Devi</p><div class="hero-date"><span>MONDAY</span><strong>JUNE <b>21</b>, 2027</strong><span>YOUR PRESENCE IS OUR GREATEST GIFT</span></div><a class="btn btn-warm" href="#rsvp">Join the celebration <span>↓</span></a></div>
+      <div class="hero-art col-lg-6" role="img" aria-label="Illustration of a welcoming traditional Indian home"><div class="art-label"><span>OUR NEW BEGINNING</span><b>With love, from our home to yours</b></div><img src="home.svg" alt="A colorful Indian home with a tiled roof, rangoli, and flowering garden"><div class="sun-disc"></div><div class="art-tag">❀ &nbsp; VATLURU &nbsp; ❀</div></div>
+    </div></section>
+    <section id="details" class="details container py-5"><div class="section-kicker">THE CELEBRATION</div><h2>A new home, a new beginning.</h2><p class="section-lead">We’ve made a home, and it would be even more special with you in it.</p><div class="row g-3 justify-content-center mt-4"><div class="col-sm-6 col-lg-4"><article class="detail-card"><div class="detail-icon">☼</div><div><span>THE AUSPICIOUS DAY</span><h3>June 21, 2027</h3><p>Monday · Save the date</p></div></article></div><div class="col-sm-6 col-lg-4"><article class="detail-card"><div class="detail-icon">⌖</div><div><span>COME FIND US</span><h3>Vatluru</h3><p>We can’t wait to welcome you</p></div></article></div></div><div class="address-note">A warm welcome, delicious food &amp; happy memories await <span>♡</span></div></section>
+    <section id="rsvp" class="rsvp-wrap"><div class="container py-5"><div class="rsvp-heading"><div class="section-kicker">A LITTLE NOTE FROM YOU</div><h2>Make our day even brighter.</h2><p>Sign in with your name to leave a house rating and a note for us.</p></div><div class="rsvp-card">
+      <form id="guest-form" class="guest-form"><label for="guest-name">YOUR NAME</label><div class="input-group"><input id="guest-name" class="form-control" name="name" maxlength="60" placeholder="How shall we welcome you?" required><button class="btn btn-warm" type="submit">Enter the celebration <span>→</span></button></div><small>Your welcome is saved just for this browser session.</small></form>
+      <div id="guest-area" class="guest-area" hidden><div class="welcome-banner"><div class="welcome-flower">✿</div><div><div class="section-kicker">WE’RE SO GLAD YOU’RE HERE</div><h3 id="welcome-title">Welcome!</h3><p>Thank you for celebrating this new beginning with us.</p></div></div>
+        <form id="feedback-form"><fieldset class="rating-field"><legend>Rate our new home</legend><p>How do you like our little dream home?</p><div class="rating-options" role="radiogroup" aria-label="Rate our new home"><label><input type="radio" name="rating" value="1" required><span>1<small>Needs love</small></span></label><label><input type="radio" name="rating" value="2"><span>2<small>Sweet</small></span></label><label><input type="radio" name="rating" value="3"><span>3<small>Lovely</small></span></label><label><input type="radio" name="rating" value="4"><span>4<small>Beautiful</small></span></label><label><input type="radio" name="rating" value="5"><span>5<small>Dream home!</small></span></label></div></fieldset>
+          <label class="review-label" for="review">Leave us a little note <span>OPTIONAL</span></label><textarea id="review" class="form-control" rows="3" maxlength="400" placeholder="A wish, a memory, or anything you'd like to share..."></textarea><button class="btn btn-warm submit-feedback" type="submit">Send your wishes <span>♡</span></button></form>
+        <div id="thank-you" class="thank-you" role="status" hidden><div class="thank-heart">♥</div><div class="section-kicker">WITH ALL OUR HEARTS</div><h3>Thank you, <span id="thanks-name"></span>!</h3><p>Your kind words and wishes mean so much to us. We’re counting down the days until we celebrate together in Vatluru.</p><div class="thanks-flourish">✿ &nbsp; With love, the Mandhapatis &nbsp; ✿</div><button id="edit-note" class="text-button" type="button">Update your note</button></div>
+      </div></div><footer>MADE WITH LOVE &nbsp; <span>✿</span> &nbsp; MANDHAPATI FAMILY</footer></div></section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
